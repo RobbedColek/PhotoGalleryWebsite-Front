@@ -1,0 +1,28 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+@font-family-base: "Comic Sans MS";
+@font-size-base: 24px;
+
+html {
+  height: 100%;
+}
+
+
+body {
+  background: white;
+  color: black;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+#content {
+  padding-top: 70px;
+}
+
+footer {
+  border-radius: 0 !important;
+  border-bottom: 0;
+  margin: 20px 0 0;
+}
